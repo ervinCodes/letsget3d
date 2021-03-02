@@ -3,7 +3,7 @@ import './App.css';
 // Components
 import { Canvas } from 'react-three-fiber';
 // Model
-import Model from './components/three/PyramidScene';
+// import Model from './components/three/PyramidScene';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         shadowMap
         camera={{position:[0,0,120], fov: 70}}>
           <Suspense fallback={null}>
-            <Model/>
+            {/* <Model/> */}
           </Suspense>
     </Canvas>
   );
